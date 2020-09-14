@@ -1,5 +1,5 @@
-import { getPoetry } from "../practice3";
 import fetchMock from "fetch-mock";
+import { getPoetry } from "../practice3";
 
 fetchMock.mock("https://v1.jinrishici.com/all.json", {
   content: "天清一雁远，海阔孤帆迟。",
